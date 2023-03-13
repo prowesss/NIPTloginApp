@@ -8,7 +8,7 @@ pipeline {
 				}
 				stage('Restore packages'){
 
-					bat 'C:\Nuget\nuget.exe restore NIPTloginApp.sln'
+					bat 'C:\\Nuget\\nuget.exe restore NIPTloginApp.sln'
 
 				}
 				stage('Build') {
