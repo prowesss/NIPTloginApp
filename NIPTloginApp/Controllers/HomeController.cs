@@ -2,18 +2,18 @@
 using NIPTloginApp.Models;
 using System.Diagnostics;
 
-namespace NIPTloginApp.Controllers
+namespace niptloginapp.controllers
 {
-    public class HomeController : Controller
+    public class homecontroller : Controller
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public homecontroller(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public ActionResult Index()
         {
             return View();
         }
